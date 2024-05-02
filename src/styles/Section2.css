@@ -1,0 +1,81 @@
+.section2 {
+  color: #fff;
+  height: 100vh;
+  width: 100%;
+  background-image: url(../assets/form/Footer.svg);
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+
+}
+
+
+.section2-right {
+  width: 50%;
+text-align: center;
+align-items: center;
+  height: 100vh;
+}
+.right-box {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+
+  height: 100vh;
+align-items: center;
+  margin-top: 79px;
+}
+.right-box > h2 {
+  font-weight: 400;
+  font-size: 65px;
+}
+.right-box > p {
+  font-size: 22px;
+  font-weight: 200;
+}
+
+/* media query for 992px */
+@media (max-width: 992px) {
+  .section2 {
+    flex-direction: column-reverse;
+    height: 144vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 30vh;
+  }
+
+  .section2-right {
+    width: 100%;
+
+    height: 100vh;
+  }
+
+  .right-box {
+    justify-content: center;
+    align-items: center;
+    margin: 12px;
+    height: 70vh;
+  }
+}
+
+/* mobile */
+@media (max-width: 576px) {
+  .right-box > h2 {
+    font-weight: 400;
+    font-size: 53px;
+  }
+  .right-box > p {
+    font-size: 15px;
+  }
+  .section2 {
+    margin-bottom: 0;
+    background-image: url(../assets/section2/Un3.gif);
+    height: 100vh;
+      background-attachment: scroll;
+  }
+}

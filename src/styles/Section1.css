@@ -1,0 +1,171 @@
+.section1 {
+  width: 100%;
+  height: 130vh;
+
+  color: white;
+  font-family: "Poppins", sans-serif;
+
+  font-style: normal;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.upper-sectio1 {
+  height: 30vh;
+  /* background-color: rgb(240 248 255 / 3%); */
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+}
+.upper-sectio1 > h2 {
+  font-size: 50px;
+  font-weight: 400;
+  margin-top: 57px;
+}
+.upper-sectio1 > p {
+  font-size: 15px;
+  margin-top: 22px;
+}
+
+.lower-sectio1 {
+  height: 70vh;
+
+  width: 100%;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3%;
+  margin: 48px;
+  color: white;
+}
+
+.row-box1 {
+  margin-top: 20px;
+  height: 50vh;
+  position: relative;
+  border-radius: 10px;
+}
+.row-box1:hover {
+  transform: scale(1.05);
+  transition: all 0.2s ease-in-out;
+}
+
+.innerbox-card {
+  display: flex;
+  gap: 3%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  margin-top: 11px;
+  /* width: 12px;
+    height: 12px; */
+}
+.icon-svg{
+  background-color: #ffffff4d;
+  border-radius: 32px;
+}
+.icon-svg>img {
+vertical-align: middle;
+width: 150px;
+/* filter: sepia(0.7); */
+}
+
+.card-text {
+  margin-top: 10px;
+}
+.card-text > h3 {
+  font-size: 18px;
+  font-weight: 500;
+}
+.card-text > p {
+  font-size: 12px;
+  font-weight: 300;
+}
+
+@media (max-width: 576px) {
+  .container,
+  .container-sm {
+    max-width: 90%;
+  }
+  .upper-sectio1 {
+    height: 19vh;
+}
+  .lower-sectio1 {
+    height: 201vh;
+
+    width: 82%;
+  }
+  .innerbox-card {
+    height: 35vh;
+  }
+  .upper-sectio1 > h2 {
+    font-size: 40px;
+    font-weight: 300;
+    margin-top: 17px;
+  }
+  .upper-sectio1 > p {
+    font-size: 12px;
+    margin-top: 22px;
+  }
+
+}
+
+@media (max-width: 1234px) {
+  .row-box1 {
+    margin-top: 20px;
+    height: 40vh;
+    min-width: 156px;
+  }
+}
+
+
+@media (min-width: 1234px) {
+  .innerbox-card {
+    height: 47vh;
+
+    width: 17vw;
+  }
+  .card-text {
+    margin-top: 40px;
+  }
+}
+
+
+@media (max-width: 992px) {
+  .row-box1 {
+    margin-top: 20px;
+    height: 38vh;
+    min-width: 156px;
+  }
+  .row {
+    margin: 0;
+    gap: 26px;
+    margin-top: 78px;
+  }
+
+
+}
+
+@media (min-width: 992px){
+.section1 {
+    
+    height: 119vh;
+}
+}
+
+
+
+@media (max-width: 576px) {
+    .section1{
+  
+            height: 219vh;
+      }
+
+}
+
+

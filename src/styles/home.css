@@ -1,0 +1,28 @@
+body{
+    /* background: linear-gradient(45deg, #000000, #18171d, #4c35ae, #2934d6); */
+    /* background-size: 300% 300%; */
+    /* animation: color 30s ease-in-out infinite; */
+    background-image: url(../assets/home/stars.jpg);
+    background-position: center;
+    background-size: contain;
+    background-attachment: fixed;
+
+}
+
+/* @keyframes color {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+} */
+
+@media (max-width: 676px){
+    body{
+        background-repeat: repeat-y;
+    }
+}
